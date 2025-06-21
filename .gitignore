@@ -1,0 +1,26 @@
+# Ne pas versionner les environnements virtuels
+venv/
+
+# Cache Python
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Fichier d’environnement contenant la clé API
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Base de données locale
+*.sqlite3
+
+# Fichiers de configuration personnels
+.vscode/
+.idea/
